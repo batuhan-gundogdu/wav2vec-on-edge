@@ -1,0 +1,10 @@
+raw_folder = '/home/batuhangundogdu/qualcomm_keyword_speech_dataset'
+output_folder = 'wav2vec2_features'
+teacher_model = "facebook/wav2vec2-large-960h"
+segments_for_100h = '/home/batuhangundogdu/ai8x-training/KWS20_embedding/segments.csv'
+segments_for_360h = '/home/batuhangundogdu/ai8x-training/KWS20_embedding/segments_2.csv'
+teacher_dimension = 1024
+teacher_layer = 16
+sampling_rate = 16_000
+minimum_duration_for_DML = 0.5 #seconds - I will make this value smaller later on
+minimum_number_of_samples_per_word = 2
